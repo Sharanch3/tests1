@@ -32,6 +32,8 @@ jobs:
       run: uv sync --locked --all-extras --dev
 
     - name: run dvc pipeline
+      env:
+        DAGSHUB_PAT: ${{secrets.DAGSHUB_PAT}}
       run: uv run dvc repro
 
 
