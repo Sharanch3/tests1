@@ -1,0 +1,37 @@
+name: CI Workflow
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+
+  pull_request:
+    branches:
+      - main
+      - dev
+
+
+jobs:
+  dvc_pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: code checkout
+      uses: actions/checkout@v4
+
+    - name: python setup
+      uses: actions/setup-python@v6
+      with:
+        python-version: '3.13'
+
+    - name: install uv
+      uses: astral-sh/setup-uv@8
+
+    - name: intall project
+      run: uv sync --locked --all-extras --dev
+
+    - name: run dvc pipeline
+      run: uv run dvc repro
+
+
