@@ -86,9 +86,9 @@ Every pipeline stage is version-controlled and reproducible via **DVC**, with ra
 
 The API is deployed and publicly reachable on an **AWS EC2** instance:
 
-- **Base URL:** [`http://54.83.143.31:8000`](http://54.83.143.31:8000)
-- **Interactive Swagger docs:** [`http://54.83.143.31:8000/docs`](http://54.83.143.31:8000/docs)
-- **Health check:** [`http://54.83.143.31:8000/health`](http://54.83.143.31:8000/health)
+- **Base URL:** [`http://13.218.36.168:8000/`](http://13.218.36.168:8000/)
+- **Interactive Swagger docs:** [`http://13.218.36.168:8000/docs`](http://13.218.36.168:8000/docs)
+- **Health check:** [`http://13.218.36.168:8000/health`](http://13.218.36.168:8000/health)
 
 ```bash
 curl -X POST http://54.83.143.31:8000/predict \
