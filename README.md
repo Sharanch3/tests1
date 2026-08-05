@@ -636,11 +636,6 @@ This project uses **Ruff** for linting/formatting — please run `ruff check .` 
 
 ---
 
-## 📄 License
-
-No license file is currently published in this repository. All rights reserved by the author unless stated otherwise.
-
----
 
 <div align="center">
 
