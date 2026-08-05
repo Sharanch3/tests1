@@ -606,8 +606,6 @@ Format: `%(asctime)s - %(name)s - %(levelname)s - %(message)s`
 ---
 
 ## 🗺 Roadmap
-
-- [x] Add a `Dockerfile` + container image for deployment
 - [x] Add Docker Compose setup with persisted audit log volume
 - [x] Add request auditing (`audit/emails.csv`)
 - [x] Push the Docker image to a registry (**AWS ECR**) as part of the release flow
