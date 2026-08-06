@@ -606,7 +606,6 @@ Format: `%(asctime)s - %(name)s - %(levelname)s - %(message)s`
 ---
 
 ## 🗺 Roadmap
-- [x] Push the Docker image to a registry (**AWS ECR**) as part of the release flow
 - [x] Deploy the container to a live host (**AWS EC2**)
 - [ ] Automate the ECR build/push + EC2 deploy steps into a CI/CD workflow instead of running them manually
 - [ ] Assign an Elastic IP (or put the instance behind a load balancer / DNS name) so the public URL doesn't change on instance restart
