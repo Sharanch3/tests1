@@ -606,7 +606,6 @@ Format: `%(asctime)s - %(name)s - %(levelname)s - %(message)s`
 ---
 
 ## 🗺 Roadmap
-- [ ] Add HTTPS/TLS in front of the API (e.g. via a reverse proxy or load balancer) — it's currently served over plain HTTP
 - [ ] Add batch prediction endpoint (`/predict/batch`)
 - [ ] Add automated test suite (`pytest`)
 - [ ] Add authentication/rate-limiting to the API
