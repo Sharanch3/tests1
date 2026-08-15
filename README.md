@@ -606,9 +606,6 @@ Format: `%(asctime)s - %(name)s - %(levelname)s - %(message)s`
 ---
 
 ## 🗺 Roadmap
-- [ ] Add authentication/rate-limiting to the API
-
----
 
 <div align="center">
 
