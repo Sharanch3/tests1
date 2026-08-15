@@ -606,7 +606,6 @@ Format: `%(asctime)s - %(name)s - %(levelname)s - %(message)s`
 ---
 
 ## 🗺 Roadmap
-- [ ] Add batch prediction endpoint (`/predict/batch`)
 - [ ] Add automated test suite (`pytest`)
 - [ ] Add authentication/rate-limiting to the API
 
