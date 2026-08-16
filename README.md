@@ -599,7 +599,6 @@ Each pipeline stage writes structured, timestamped logs to both the console and 
 | Preprocessing | `logs/preprocessing.log` |
 | Feature Engineering | `logs/feature_engineering.log` |
 | Model Building | `logs/model_building.log` |
-| Model Evaluation | `logs/model-evaluation.log` |
 
 Format: `%(asctime)s - %(name)s - %(levelname)s - %(message)s`
 ---
