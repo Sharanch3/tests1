@@ -602,10 +602,7 @@ Each pipeline stage writes structured, timestamped logs to both the console and 
 | Model Evaluation | `logs/model-evaluation.log` |
 
 Format: `%(asctime)s - %(name)s - %(levelname)s - %(message)s`
-
 ---
-
-## 🗺 Roadmap
 
 <div align="center">
 
