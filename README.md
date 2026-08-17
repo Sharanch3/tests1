@@ -598,7 +598,6 @@ Each pipeline stage writes structured, timestamped logs to both the console and 
 | Data Ingestion | `logs/ingestion.log` |
 | Preprocessing | `logs/preprocessing.log` |
 | Feature Engineering | `logs/feature_engineering.log` |
-| Model Building | `logs/model_building.log` |
 
 Format: `%(asctime)s - %(name)s - %(levelname)s - %(message)s`
 ---
