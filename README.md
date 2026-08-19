@@ -591,8 +591,6 @@ This gives a simple, human-readable trail of everything the deployed model has c
 
 ## 🪵 Logging
 
-Each pipeline stage writes structured, timestamped logs to both the console and a dedicated file under `logs/`:
-
 ---
 
 <div align="center">
