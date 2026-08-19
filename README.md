@@ -584,9 +584,6 @@ This gives a simple, human-readable trail of everything the deployed model has c
 
 - Locally, the file lives at `audit/emails.csv` relative to the project root.
 - In Docker, `audit/` is bind-mounted to the host (see [Running with Docker](#-running-with-docker)), so the log survives container restarts and rebuilds.
-- On the **live EC2 deployment**, this same bind mount means every request sent to [`http://54.83.143.31:8000/predict`](#-live-demo) is being logged in real time to `audit/emails.csv` on the instance — the live app is actively collecting real inference data, not just serving predictions.
-- `audit/emails.csv` is git-ignored — only the empty `audit/` directory (via `audit/.gitignore`) is tracked in version control.
-
 ---
 
 <div align="center">
