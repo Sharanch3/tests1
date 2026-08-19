@@ -589,10 +589,6 @@ This gives a simple, human-readable trail of everything the deployed model has c
 
 ---
 
-## 🪵 Logging
-
----
-
 <div align="center">
 
 Built by **[Sharanch3](https://github.com/Sharanch3)**
