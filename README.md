@@ -583,7 +583,6 @@ Every successful call to `POST /predict` is appended as a new row to `audit/emai
 This gives a simple, human-readable trail of everything the deployed model has classified — useful for spot-checking predictions, building a future retraining dataset, or debugging misclassifications in production.
 
 - Locally, the file lives at `audit/emails.csv` relative to the project root.
-- In Docker, `audit/` is bind-mounted to the host (see [Running with Docker](#-running-with-docker)), so the log survives container restarts and rebuilds.
 ---
 
 <div align="center">
