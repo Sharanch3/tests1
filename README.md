@@ -579,7 +579,6 @@ Every successful call to `POST /predict` is appended as a new row to `audit/emai
 |---|---|
 | `email` | The raw input text submitted for classification |
 | `label` | The predicted label (`Spam` / `Not Spam`) |
-- Locally, the file lives at `audit/emails.csv` relative to the project root.
 ---
 
 <div align="center">
