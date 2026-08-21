@@ -571,9 +571,6 @@ mlflow.sklearn.load_model(model_uri="models:/MailGuard-API/1")
 
 ---
 
-## 🧾 Request Auditin
-
-
 <div align="center">
 
 Built by **[Sharanch3](https://github.com/Sharanch3)**
