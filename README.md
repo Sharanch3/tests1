@@ -571,9 +571,7 @@ mlflow.sklearn.load_model(model_uri="models:/MailGuard-API/1")
 
 ---
 
-## 🧾 Request Auditing
-
-Every successful call to `POST /predict` is appended as a new row to `audit/emails.csv` (created automatically on first request):
+## 🧾 Request Auditin
 
 
 <div align="center">
