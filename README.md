@@ -577,9 +577,6 @@ Every successful call to `POST /predict` is appended as a new row to `audit/emai
 
 | Column | Description |
 |---|---|
-| `email` | The raw input text submitted for classification |
-| `label` | The predicted label (`Spam` / `Not Spam`) |
----
 
 <div align="center">
 
