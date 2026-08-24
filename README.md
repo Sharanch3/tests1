@@ -565,10 +565,6 @@ Every training run logs the following to **MLflow** (hosted via **DagsHub**):
 
 The FastAPI service loads the model directly from the registry at startup via:
 
-```python
-mlflow.sklearn.load_model(model_uri="models:/MailGuard-API/1")
-```
-
 ---
 
 <div align="center">
