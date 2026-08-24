@@ -548,8 +548,6 @@ Every training run logs the following to **MLflow** (hosted via **DagsHub**):
 - ⚙️ Parameters: `C`, `solver`, `penalty`, `random_state`
 - 📦 Model artifact: registered under `MailGuard-API` in the Model Registry
 
-The FastAPI service loads the model directly from the registry at startup via:
-
 ---
 
 <div align="center">
