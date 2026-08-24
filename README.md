@@ -536,21 +536,6 @@ Returns metadata about the currently loaded model and vectorizer.
 
 All tunable hyperparameters live in a single file, **`params.yaml`**, consumed by both the DVC pipeline and the training scripts:
 
-```yaml
-data-ingestion:
-  test_size: 0.2
-
-feature-engineering:
-  max_features: 2000
-  ngram_range: [1, 2]
-
-model-building:
-  C: 0.01
-  solver: "liblinear"
-  penalty: "l2"
-  random_state: 42
-```
-
 Changing a value here and running `dvc repro` will automatically re-trigger only the affected downstream stages.
 
 ---
