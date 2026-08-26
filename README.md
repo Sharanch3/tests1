@@ -545,8 +545,6 @@ Changing a value here and running `dvc repro` will automatically re-trigger only
 Every training run logs the following to **MLflow** (hosted via **DagsHub**):
 
 - 📈 Metrics: `accuracy`, `precision`, `recall`, `auc`
-- ⚙️ Parameters: `C`, `solver`, `penalty`, `random_state`
-
 ---
 
 <div align="center">
