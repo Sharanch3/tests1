@@ -539,12 +539,6 @@ All tunable hyperparameters live in a single file, **`params.yaml`**, consumed b
 Changing a value here and running `dvc repro` will automatically re-trigger only the affected downstream stages.
 
 ---
-
-## 📊 Experiment Tracking
-
-Every training run logs the following to **MLflow** (hosted via **DagsHub**):
----
-
 <div align="center">
 
 Built by **[Sharanch3](https://github.com/Sharanch3)**
