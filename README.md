@@ -519,16 +519,6 @@ Returns metadata about the currently loaded model and vectorizer.
   - `solver = liblinear`
   - `penalty = l2`
   - `random_state = 42`
-- **Text Preprocessing Pipeline:**
-  1. Lowercasing
-  2. URL removal
-  3. Email address removal
-  4. HTML tag stripping
-  5. Bracketed-text removal
-  6. Special character / digit removal
-  7. Whitespace normalization
-  8. spaCy tokenization → stopword & punctuation removal → lemmatization
-- **Evaluation Metrics** (`reports/metrics.json`): Accuracy, Precision, Recall, ROC-AUC
 
 ---
 
