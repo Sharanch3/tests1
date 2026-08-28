@@ -459,9 +459,6 @@ Health check — confirms the model, vectorizer, and NLP pipeline are loaded.
 }
 ```
 
-### `POST /predict`
-Classifies a single email as **Spam** or **Not Spam**.
-
 **Request body:**
 ```json
 {
