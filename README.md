@@ -264,12 +264,6 @@ Visualize the DAG:
 dvc dag
 ```
 
-Pull versioned data/artifacts from the S3 remote:
-
-```bash
-dvc pull
-```
-
 ---
 
 ## 🚀 Getting Started
