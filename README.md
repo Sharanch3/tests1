@@ -326,7 +326,6 @@ The API will be available at `http://127.0.0.1:8000`, with interactive Swagger d
 On startup, the app loads three resources once into memory (`app.state`):
 - ✅ Trained Logistic Regression model (pulled from the MLflow Model Registry)
 - ✅ Fitted TF-IDF vectorizer (`artifacts/vectorizer.joblib`)
-- ✅ spaCy NLP pipeline (`en_core_web_sm`, parser/NER disabled for speed)
 
 ---
 
