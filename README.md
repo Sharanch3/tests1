@@ -324,8 +324,7 @@ uvicorn app.app:app --host 127.0.0.1 --port 8000 --reload
 The API will be available at `http://127.0.0.1:8000`, with interactive Swagger docs at `http://127.0.0.1:8000/docs`.
 
 On startup, the app loads three resources once into memory (`app.state`):
-- ✅ Trained Logistic Regression model (pulled from the MLflow Model Registry)
-- ✅ Fitted TF-IDF vectorizer (`artifacts/vectorizer.joblib`)
+- ✅ Trained Logistic Regression model (pulled from the MLflow Model Registry
 
 ---
 
