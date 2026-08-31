@@ -478,25 +478,6 @@ Health check — confirms the model, vectorizer, and NLP pipeline are loaded.
 ### `GET /model/info`
 Returns metadata about the currently loaded model and vectorizer.
 
-```json
-{
-  "model_type": "Logistic Regression",
-  "vectorizer_type": "TF-IDF",
-  "max_features": 2000,
-  "vocabulary_size": 2000,
-  "ngram_range": [1, 2],
-  "preprocessing": [
-    "Lowercase conversion",
-    "URL removal",
-    "Email address removal",
-    "HTML tag removal",
-    "Special character removal",
-    "Stopwords removal",
-    "Lemmatization"
-  ]
-}
-```
-
 ---
 
 ## 🤖 Model Details
