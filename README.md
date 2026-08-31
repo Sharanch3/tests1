@@ -424,9 +424,6 @@ The live deployment (see [Live Demo](#-live-demo)) follows this workflow:
 
 ## 📡 API Reference
 
-### `GET /`
-Returns basic API metadata.
-
 ```json
 {
   "message": "Spam Email Classifier API",
