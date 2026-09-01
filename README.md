@@ -302,13 +302,7 @@ DAGSHUB_PAT=your_dagshub_access_token
 
 This token is used to authenticate with DagsHub for MLflow experiment tracking and model registry access (`src/model_evaluation.py`, `app/utility.py`). The same `.env` file is reused by `compose.yaml` (via `env_file`) when running the API in Docker.
 
-### Reproducing the Pipeline
-
-```bash
-dvc repro
-```
-
-This runs ingestion → preprocessing → feature engineering → model building → evaluation, and registers the resulting model to the DagsHub-hosted MLflow **Model Registry** under the name `MailGuard-API`.
+### Reproducing the Pipelin
 
 ### Running the API
 
