@@ -337,26 +337,11 @@ docker compose up
 
 `compose.yaml`:
 ```yaml
-services:
-  mailguard:
-    image: 707578706440.dkr.ecr.us-east-1.amazonaws.com/sharanch33/mailguard:latest
-    container_name: mailguard
-    env_file:
-      - .env
-    ports:
-      - "8000:8000"
-    volumes:
-      - type: bind
-        source: ./audit/
-        target: /pmg-api/audit/
 ```
-
-This:
-- Pulls the pre-built image from the private **AWS ECR** repository (requires `docker login` to ECR — see below)
+**AWS ECR** repository (requires `docker login` to ECR — see below)
 - Loads secrets (e.g. `DAGSHUB_PAT`) from a local `.env` file via `env_file`
 - Publishes the API on `http://localhost:8000`
 - Bind-mounts `./audit` on the host to `/pmg-api/audit` in the container, so the prediction **audit log persists outside the container**
-
 ### Build the image locally instead
 
 If you want to build from source rather than pull from ECR (e.g. for local development), use the `Dockerfile` directly:
