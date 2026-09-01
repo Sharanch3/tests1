@@ -340,16 +340,6 @@ docker compose up
 
 If you want to build from source rather than pull from ECR (e.g. for local development), use the `Dockerfile` directly:
 
-```bash
-docker build -t mailguard .
-docker run -d \
-  --name mailguard \
-  -p 8000:8000 \
-  --env-file .env \
-  -v $(pwd)/audit:/pmg-api/audit \
-  mailguard
-```
-
 ### What the image does
 
 - Base image: `python:3.13-slim-bookworm`
