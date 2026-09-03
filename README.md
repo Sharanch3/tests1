@@ -454,16 +454,4 @@ Returns metadata about the currently loaded model and vectorizer.
   - `random_state = 42`
 
 ---
-
-## ⚙️ Configuration
-
-All tunable hyperparameters live in a single file, **`params.yaml`**, consumed by both the DVC pipeline and the training scripts:
-
-Changing a value here and running `dvc repro` will automatically re-trigger only the affected downstream stages.
-
----
-<div align="center">
-
-Built by **[Sharanch3](https://github.com/Sharanch3)**
-
 </div>
