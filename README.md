@@ -442,16 +442,5 @@ Health check — confirms the model, vectorizer, and NLP pipeline are loaded.
 Returns metadata about the currently loaded model and vectorizer.
 
 ---
-
-## 🤖 Model Details
-
-- **Algorithm:** Logistic Regression (`scikit-learn`)
-- **Feature Extraction:** TF-IDF, `max_features=2000`, `ngram_range=(1, 2)`
-- **Hyperparameters** (`params.yaml`):
-  - `C = 0.01`
-  - `solver = liblinear`
-  - `penalty = l2`
-  - `random_state = 42`
-
 ---
 </div>
