@@ -430,16 +430,7 @@ Health check — confirms the model, vectorizer, and NLP pipeline are loaded.
     "ham": 0.0568,
     "spam": 0.9432
   },
-  "cleaned_text": "congratulation win gift card click claim"
-}
-```
-
-| Field | Type | Description |
-|---|---|---|
-| `text` | `string` (min length 3) | Raw email text to classify |
-
-### `GET /model/info`
-Returns metadata about the currently loaded model and vectorizer.
+  "cleaned_text": "congratulation win gift card click clai
 
 ---
 ---
