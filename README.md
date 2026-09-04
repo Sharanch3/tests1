@@ -401,22 +401,3 @@ The live deployment (see [Live Demo](#-live-demo)) follows this workflow:
   }
 }
 ```
-
-### `GET /health`
-Health check — confirms the model, vectorizer, and NLP pipeline are loaded.
-
-```json
-{
-  "status": "healthy",
-  "model_loaded": true,
-  "vectorizer_loaded": true,
-  "nlp_loaded": true
-}
-```
-
-**Request body:**
-```json
-{
-  "text": "Congratulations! You've won a $1000 gift card, click here to claim now!!!"
-}
-
