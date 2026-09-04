@@ -419,19 +419,4 @@ Health check — confirms the model, vectorizer, and NLP pipeline are loaded.
 {
   "text": "Congratulations! You've won a $1000 gift card, click here to claim now!!!"
 }
-```
 
-**Response:**
-```json
-{
-  "prediction": "Spam",
-  "confidence": 94.32,
-  "probabilities": {
-    "ham": 0.0568,
-    "spam": 0.9432
-  },
-  "cleaned_text": "congratulation win gift card click clai
-
----
----
-</div>
