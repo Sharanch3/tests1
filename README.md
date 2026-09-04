@@ -378,15 +378,7 @@ The live deployment (see [Live Demo](#-live-demo)) follows this workflow:
      | docker login --username AWS --password-stdin 707578706440.dkr.ecr.us-east-1.amazonaws.com
 
    docker compose up -d
-   ```
-
-5. **Result** — the container runs on the instance with port `8000` exposed to the internet (via the instance's security group), and `./audit` bind-mounted so `audit/emails.csv` persists on the EC2 host across container restarts, redeploys, and image updates.
-
-**Redeploying a new version** is just: rebuild → push to ECR with the same tag → on the EC2 host run `docker compose pull && docker compose up -d` to pull the new image and recreate the container.
-
-> **Note on the audit log across deployments:** since `audit/` is bind-mounted to the EC2 host's filesystem (not baked into the image), the audit trail survives image updates and container restarts — but it lives only on that one instance's disk. It is **not** currently backed up to S3 or any other durable store, so a lost or terminated instance means a lost audit log. This would be a natural next improvement (see [Roadmap](#-roadmap)).
-
----
+   
 
 ## 📡 API Reference
 
