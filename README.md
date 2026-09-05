@@ -353,20 +353,7 @@ If you want to build from source rather than pull from ECR (e.g. for local devel
 
 The live deployment (see [Live Demo](#-live-demo)) follows this workflow:
 
-1. **Build & push to ECR**
-   ```bash
-   docker build -t mailguard .
-   docker tag mailguard:latest 707578706440.dkr.ecr.us-east-1.amazonaws.com/sharanch33/mailguard:latest
 
-   aws ecr get-login-password --region us-east-1 \
-     | docker login --username AWS --password-stdin 707578706440.dkr.ecr.us-east-1.amazonaws.com
-
-   docker push 707578706440.dkr.ecr.us-east-1.amazonaws.com/sharanch33/mailguard:latest
-   ```
-
-2. **Stage deployment config in S3** — `compose.yaml` and `.env` are uploaded to an S3 bucket, decoupling deployment configuration from the EC2 instance itself.
-
-3. **Provision & configure the EC2 instance** — Docker (and Docker Compose) installed on the instance, and the instance's IAM role/credentials granted `ecr:GetAuthorizationToken` + pull access to the ECR repository.
 
 
 
