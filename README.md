@@ -380,16 +380,4 @@ The live deployment (see [Live Demo](#-live-demo)) follows this workflow:
    docker compose up -d
    
 
-## 📡 API Reference
 
-```json
-{
-  "message": "Spam Email Classifier API",
-  "version": "1.0.0",
-  "endpoints": {
-    "health": "/health",
-    "predict": "/predict",
-    "docs": "/docs"
-  }
-}
-```
