@@ -368,16 +368,6 @@ The live deployment (see [Live Demo](#-live-demo)) follows this workflow:
 
 3. **Provision & configure the EC2 instance** — Docker (and Docker Compose) installed on the instance, and the instance's IAM role/credentials granted `ecr:GetAuthorizationToken` + pull access to the ECR repository.
 
-4. **Pull config and run on EC2**
-   ```bash
-   # On the EC2 instance, inside the working directory
-   aws s3 cp s3://<bucket-name>/compose.yaml .
-   aws s3 cp s3://<bucket-name>/.env .
 
-   aws ecr get-login-password --region us-east-1 \
-     | docker login --username AWS --password-stdin 707578706440.dkr.ecr.us-east-1.amazonaws.com
-
-   docker compose up -d
-   
 
 
