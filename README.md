@@ -323,23 +323,6 @@ On startup, the app loads three resources once into memory (`app.state`):
 
 The API is packaged as a Docker image using **uv** for fast, reproducible dependency installation. The current `compose.yaml` in this repo is configured for **production** — it pulls the image from **AWS ECR** rather than building locally (see [Production Deployment](#-production-deployment-aws-ec2--ecr) for how that image gets there).
 
-### Run the published image with Docker Compose
-
-```bash
-docker compose up
-```
-
-`compose.yaml`:
-```yaml
-```
-**AWS ECR** repository (requires `docker login` to ECR — see below)
-- Loads secrets (e.g. `DAGSHUB_PAT`) from a local `.env` file via `env_file`
-- Publishes the API on `http://localhost:8000`
-- Bind-mounts `./audit` on the host to `/pmg-api/audit` in the container, so the prediction **audit log persists outside the container**
-### Build the image locally instead
-
-If you want to build from source rather than pull from ECR (e.g. for local development), use the `Dockerfile` directly:
-
 
 
 
