@@ -340,14 +340,6 @@ docker compose up
 
 If you want to build from source rather than pull from ECR (e.g. for local development), use the `Dockerfile` directly:
 
-### What the image does
-
-- Base image: `python:3.13-slim-bookworm`
-- Installs `uv`, then runs `uv sync --frozen --no-dev` for a fast, locked, production-only install (dev dependencies like `ruff`, `matplotlib`, `ipykernel` are excluded)
-- Copies in only what's needed to serve the model: `app/` and `artifacts/` (training code, data, and notebooks are **not** shipped in the image)
-- Exposes port `8000` and starts the API with `uv run uvicorn app.app:app --host 0.0.0.0 --port 8000`
-
-
 
 
 
