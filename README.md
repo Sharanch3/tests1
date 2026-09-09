@@ -304,20 +304,6 @@ This token is used to authenticate with DagsHub for MLflow experiment tracking a
 
 ### Reproducing the Pipelin
 
-### Running the API
-
-Run from the **project root** (the `app/` module now uses package-relative imports — `from app.schemas import ...` / `from app.utility import ...` — so it must be launched as part of the `app` package, not as a standalone script inside `app/`):
-
-```bash
-uvicorn app.app:app --host 127.0.0.1 --port 8000 --reload
-```
-
-The API will be available at `http://127.0.0.1:8000`, with interactive Swagger docs at `http://127.0.0.1:8000/docs`.
-
-On startup, the app loads three resources once into memory (`app.state`):
-- ✅ Trained Logistic Regression model (pulled from the MLflow Model Registry
-
----
 
 
 
