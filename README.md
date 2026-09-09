@@ -319,10 +319,6 @@ On startup, the app loads three resources once into memory (`app.state`):
 
 ---
 
-## 🐳 Running with Docker
-
-The API is packaged as a Docker image using **uv** for fast, reproducible dependency installation. The current `compose.yaml` in this repo is configured for **production** — it pulls the image from **AWS ECR** rather than building locally (see [Production Deployment](#-production-deployment-aws-ec2--ecr) for how that image gets there).
-
 
 
 
