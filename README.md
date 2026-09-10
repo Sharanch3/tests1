@@ -273,36 +273,6 @@ dvc dag
 - A [DagsHub](https://dagshub.com/) account + access token (for MLflow tracking & model registry)
 - [Docker](https://www.docker.com/) + Docker Compose (optional, only needed for containerized deployment)
 
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/Sharanch3/Production-MailGuard-API.git
-cd Production-MailGuard-API
-
-# Install dependencies (creates a .venv automatically)
-uv sync
-
-# Activate the environment
-# Windows:
-.venv\Scripts\activate
-# macOS / Linux:
-source .venv/bin/activate
-```
-
-> The `en_core_web_sm` spaCy model is declared directly in `pyproject.toml` as a source URL, so `uv sync` installs it automatically — no separate `spacy download` step required.
-
-### Environment Variables
-
-Create a `.env` file in the project root:
-
-```env
-DAGSHUB_PAT=your_dagshub_access_token
-```
-
-This token is used to authenticate with DagsHub for MLflow experiment tracking and model registry access (`src/model_evaluation.py`, `app/utility.py`). The same `.env` file is reused by `compose.yaml` (via `env_file`) when running the API in Docker.
-
-### Reproducing the Pipelin
 
 
 
