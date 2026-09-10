@@ -235,28 +235,6 @@ Production-MailGuard-API/
 └── .python-version               # Python 3.13
 ```
 
----
-
-## 🔄 ML Pipeline (DVC)
-
-The full training pipeline is orchestrated with `dvc.yaml` and can be reproduced end-to-end with a single command.
-
-| Stage | Script | Depends On | Params Used | Outputs |
-|---|---|---|---|---|
-| `data-ingestion` | `src/data_ingestion.py` | — | `data-ingestion.test_size` | `data/raw/` |
-| `data_preprocessing` | `src/data_preprocessing.py` | `data/raw/` | — | `data/interim/{train,test}_processed.csv` |
-| `feature-engineering` | `src/feature_engineering.py` | `data/interim/*` | `feature-engineering.max_features` | `data/processed/*`, `artifacts/vectorizer.joblib` |
-| `model_building` | `src/model_building.py` | `data/processed/*` | `model-building.{solver,penalty,random_state}` | `artifacts/model.joblib` |
-| `model-evaluation` | `src/model_evaluation.py` | `artifacts/model.joblib` | — | `reports/metrics.json` + MLflow run |
-
-Run the whole pipeline:
-
-```bash
-dvc repro
-```
-
-Visualize the DAG:
-
 
 
 
