@@ -257,22 +257,6 @@ dvc repro
 
 Visualize the DAG:
 
-```bash
-dvc dag
-```
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Python **3.13**
-- [`uv`](https://docs.astral.sh/uv/) package manager
-- AWS credentials configured (for `dvc pull`/`dvc push` against the S3 remote)
-- A [DagsHub](https://dagshub.com/) account + access token (for MLflow tracking & model registry)
-- [Docker](https://www.docker.com/) + Docker Compose (optional, only needed for containerized deployment)
-
 
 
 
