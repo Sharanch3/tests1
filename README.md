@@ -194,9 +194,6 @@ Raw, interim, and processed datasets — along with the trained model and vector
 | ![YAML](https://img.shields.io/badge/-YAML-CB171E?style=flat-square&logo=yaml&logoColor=white) | **YAML** (`params.yaml`) | Centralized pipeline hyperparameters |
 | ![Joblib](https://img.shields.io/badge/-Joblib-4B8BBE?style=flat-square) | **Joblib** | Model & vectorizer serialization |
 
----
-
-## 📂 Project Structure
 
 
 
