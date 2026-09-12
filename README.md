@@ -198,42 +198,7 @@ Raw, interim, and processed datasets — along with the trained model and vector
 
 ## 📂 Project Structure
 
-```
-Production-MailGuard-API/
-├── app/                          # FastAPI application
-│   ├── app.py                    # API routes & lifespan (model loading, audit logging)
-│   ├── schemas.py                # Pydantic request/response models
-│   └── utility.py                # Model/vectorizer/NLP loading + preprocessing
-│
-├── src/                          # DVC pipeline stages (training code)
-│   ├── data_ingestion.py         # Download data, train/test split
-│   ├── data_preprocessing.py     # Text cleaning & normalization
-│   ├── feature_engineering.py    # TF-IDF vectorization
-│   ├── model_building.py         # Logistic Regression training
-│   ├── model_evaluation.py       # Metrics + MLflow/DagsHub model registration
-│   └── utils.py                  # Shared helpers (logger, params loader, NLP)
-│
-├── data/
-│   ├── raw/                      # train.csv / test.csv (DVC-tracked)
-│   ├── interim/                  # Cleaned/preprocessed text (DVC-tracked)
-│   └── processed/                # TF-IDF feature matrices (DVC-tracked)
-│
-├── artifacts/                    # vectorizer.joblib, model.joblib (DVC-tracked)
-├── audit/                        # emails.csv — logged prediction requests (bind-mounted in Docker)
-├── reports/                      # metrics.json (evaluation output)
-├── logs/                         # Per-stage rotating log files
-├── expirements/                  # Notebook/experiment scratch space
-│
-├── Dockerfile                    # Container image definition for the API
-├── compose.yaml                  # Docker Compose service definition (build, ports, audit volume)
-├── dvc.yaml                      # DVC pipeline stage definitions
-├── dvc.lock                      # DVC pipeline lockfile (hashes, deps, outs)
-├── params.yaml                   # Centralized hyperparameters
-├── .dvc/config                   # DVC remote config (S3 bucket)
-├── pyproject.toml                # Project metadata & dependencies (uv)
-├── uv.lock                       # Locked dependency versions
-└── .python-version               # Python 3.13
-```
+
 
 
 
