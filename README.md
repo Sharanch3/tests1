@@ -58,17 +58,6 @@
 - [Roadmap](#-roadmap)
 - [Contributing](#-contributing)
 - [License](#-license)
-
-```bash
-curl -X POST http://54.83.143.31:8000/predict \
-  -H "Content-Type: application/json" \
-  -d '{"text": "Congratulations! You have won a $1000 gift card, click here to claim now!!!"}'
-```
-
-> ⚠️ This points at a specific EC2 instance's public IPv4 address, which is **not** an Elastic IP — it can change if the instance is stopped/restarted. If the link above is unreachable, the instance may have been stopped or reassigned a new address.
-
-Every request made against the live demo is logged to the server's `audit/emails.csv` (see [Request Auditing](#-request-auditing)), so the live deployment is also continuously accumulating real inference data.
-
 ---
 
 Raw, interim, and processed datasets — along with the trained model and vectorizer — are all tracked by **DVC** and pushed to an **S3 remote (`s3://sharanch-dvc-bucket`)**, keeping the Git repository lightweight while preserving full data/model lineage. **AWS S3** is now also used to store the deployment-time `compose.yaml` and `.env` files, which are pulled onto the EC2 instance's working directory before `docker compose up` is run.
