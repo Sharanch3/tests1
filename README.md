@@ -59,24 +59,6 @@
 - [Contributing](#-contributing)
 - [License](#-license)
 
----
-
-## 🧠 Overview
-
-**Production MailGuard API** is an end-to-end, production-style **Spam vs. Ham email classifier**. It goes beyond a simple notebook model — the project is structured as a complete **MLOps pipeline**:
-
-1. **Data Ingestion** — pulls the raw email dataset from a remote CSV source and performs a train/test split.
-2. **Data Preprocessing** — cleans and normalizes raw email text (URL/HTML/email removal, lemmatization) using a **spaCy** NLP pipeline.
-3. **Feature Engineering** — vectorizes text with **TF-IDF** and persists the fitted vectorizer as an artifact.
-4. **Model Building** — trains a **Logistic Regression** classifier on the TF-IDF features.
-5. **Model Evaluation & Registry** — computes accuracy/precision/recall/AUC and logs the run (metrics, params, model) to **MLflow**, registering the model in the **DagsHub Model Registry**.
-6. **Serving** — a **FastAPI** application loads the registered model, the TF-IDF vectorizer, and the spaCy pipeline at startup and exposes a REST API for real-time spam classification.
-7. **Auditing** — every `/predict` call is appended to a persisted `audit/emails.csv` file (input text + predicted label), giving a lightweight, inspectable trail of what the model has classified in production.
-8. **Containerization** — the API ships with a **Dockerfile** and **Docker Compose** setup, so the whole service can be built and run as a single container with the audit log bind-mounted to the host.
-9. **Deployment** — the container image is pushed to **AWS ECR** and pulled/run on an **AWS EC2** instance via `docker compose`, making the API publicly reachable and continuously collecting live audit data.
-
-Every pipeline stage is version-controlled and reproducible via **DVC**, with raw/interim/processed data and model artifacts tracked and stored on an **AWS S3** remote.
-
 ```bash
 curl -X POST http://54.83.143.31:8000/predict \
   -H "Content-Type: application/json" \
