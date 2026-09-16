@@ -35,7 +35,6 @@
 
 ## 📖 Table of Contents
 
-- [Architecture](#-architecture)
 - [Tech Stack](#-tech-stack)
 - [Project Structure](#-project-structure)
 - [ML Pipeline (DVC)](#-ml-pipeline-dvc)
