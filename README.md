@@ -35,7 +35,6 @@
 
 ## 📖 Table of Contents
 
-- [Overview](#-overview)
 - [Live Demo](#-live-demo)
 - [Architecture](#-architecture)
 - [Tech Stack](#-tech-stack)
