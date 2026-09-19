@@ -35,7 +35,6 @@
 
 ## 📖 Table of Contents
 
-- [Project Structure](#-project-structure)
 - [ML Pipeline (DVC)](#-ml-pipeline-dvc)
 - [Getting Started](#-getting-started)
   - [Prerequisites](#prerequisites)
