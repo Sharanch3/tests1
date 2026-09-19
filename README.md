@@ -35,7 +35,6 @@
 
 ## 📖 Table of Contents
 
-- [Tech Stack](#-tech-stack)
 - [Project Structure](#-project-structure)
 - [ML Pipeline (DVC)](#-ml-pipeline-dvc)
 - [Getting Started](#-getting-started)
