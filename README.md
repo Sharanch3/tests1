@@ -35,7 +35,6 @@
 
 ## 📖 Table of Contents
 
-  - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Environment Variables](#environment-variables)
   - [Reproducing the Pipeline](#reproducing-the-pipeline)
