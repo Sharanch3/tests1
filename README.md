@@ -35,7 +35,6 @@
 
 ## 📖 Table of Contents
 
-- [Getting Started](#-getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Environment Variables](#environment-variables)
