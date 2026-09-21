@@ -35,7 +35,6 @@
 
 ## 📖 Table of Contents
 
-  - [Installation](#installation)
   - [Environment Variables](#environment-variables)
   - [Reproducing the Pipeline](#reproducing-the-pipeline)
   - [Running the API](#running-the-api)
