@@ -35,7 +35,6 @@
 
 ## 📖 Table of Contents
 
-  - [Running the API](#running-the-api)
 - [Running with Docker](#-running-with-docker)
 - [Production Deployment (AWS EC2 + ECR)](#-production-deployment-aws-ec2--ecr)
 - [API Reference](#-api-reference)
