@@ -35,7 +35,6 @@
 
 ## 📖 Table of Contents
 
-- [Model Details](#-model-details)
 - [Configuration](#-configuration)
 - [Experiment Tracking](#-experiment-tracking)
 - [Request Auditing](#-request-auditing)
