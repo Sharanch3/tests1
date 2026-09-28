@@ -35,7 +35,6 @@
 
 ## 📖 Table of Contents
 
-- [API Reference](#-api-reference)
 - [Model Details](#-model-details)
 - [Configuration](#-configuration)
 - [Experiment Tracking](#-experiment-tracking)
