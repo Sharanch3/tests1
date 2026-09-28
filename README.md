@@ -35,7 +35,6 @@
 
 ## 📖 Table of Contents
 
-- [Configuration](#-configuration)
 - [Experiment Tracking](#-experiment-tracking)
 - [Request Auditing](#-request-auditing)
 - [Logging](#-logging)
