@@ -39,7 +39,6 @@
 - [Request Auditing](#-request-auditing)
 - [Logging](#-logging)
 - [Roadmap](#-roadmap)
-- [Contributing](#-contributing)
 ---
 
 Raw, interim, and processed datasets — along with the trained model and vectorizer — are all tracked by **DVC** and pushed to an **S3 remote (`s3://sharanch-dvc-bucket`)**, keeping the Git repository lightweight while preserving full data/model lineage. **AWS S3** is now also used to store the deployment-time `compose.yaml` and `.env` files, which are pulled onto the EC2 instance's working directory before `docker compose up` is run.
