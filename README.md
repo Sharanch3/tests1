@@ -34,8 +34,6 @@
 ---
 
 ## 📖 Table of Contents
-
-- [Experiment Tracking](#-experiment-tracking)
 - [Request Auditing](#-request-auditing)
 - [Logging](#-logging)
 - [Roadmap](#-roadmap)
