@@ -34,7 +34,7 @@
 ---
 
 ## 📖 Table of Contents
-- [Request Auditing](#-request-auditing)
+
 - [Logging](#-logging)
 - [Roadmap](#-roadmap)
 ---
