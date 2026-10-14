@@ -35,7 +35,6 @@
 
 ## 📖 Table of Contents
 
-- [Logging](#-logging)
 - [Roadmap](#-roadmap)
 ---
 
