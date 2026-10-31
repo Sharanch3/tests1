@@ -53,7 +53,7 @@ Raw, interim, and processed datasets — along with the trained model and vector
 | ![DagsHub](https://img.shields.io/badge/-DagsHub-FF6600?style=flat-square) | **DagsHub** | Hosted MLflow tracking server & model registry backend |
 | ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) | **Docker / Docker Compose** | Containerized build & runtime (`Dockerfile`, `compose.yaml`) |
 | ![AWS ECR](https://img.shields.io/badge/-AWS_ECR-232F3E?style=flat-square&logo=amazonecs&logoColor=white) | **AWS ECR** | Private registry hosting the built `mailguard` image |
-| ![AWS EC2](https://img.shields.io/badge/-AWS_EC2-232F3E?style=flat-square&logo=amazonec2&logoColor=white) | **AWS EC2** | Compute instance running the deployed container |
+
 
 
 
