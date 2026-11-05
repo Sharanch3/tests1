@@ -49,7 +49,7 @@ Raw, interim, and processed datasets — along with the trained model and vector
 | ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white) | **Pandas** | Data manipulation |
 | ![DVC](https://img.shields.io/badge/-DVC-945DD6?style=flat-square&logo=dvc&logoColor=white) | **DVC** | Data & pipeline versioning (`dvc.yaml`, `dvc.lock`) |
 | ![AWS S3](https://img.shields.io/badge/-AWS_S3-232F3E?style=flat-square&logo=amazons3&logoColor=white) | **AWS S3** | Remote storage for DVC artifacts, and for deployment config (`compose.yaml`, `.env`) pulled onto EC2 |
-| ![MLflow](https://img.shields.io/badge/-MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white) | **MLflow** | Experiment tracking, metric/param logging, model registry |
+
 
 
 
