@@ -46,7 +46,6 @@ Raw, interim, and processed datasets — along with the trained model and vector
 | ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) | **FastAPI + Uvicorn** | REST API framework & ASGI server |
 | ![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) | **scikit-learn** | TF-IDF vectorization & Logistic Regression model |
 | ![spaCy](https://img.shields.io/badge/-spaCy-09A3D5?style=flat-square&logo=spacy&logoColor=white) | **spaCy (`en_core_web_sm`)** | Text cleaning, lemmatization, stopword removal |
-| ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white) | **Pandas** | Data manipulation |
 
 
 
