@@ -39,9 +39,7 @@ Raw, interim, and processed datasets — along with the trained model and vector
 
 ---
 
-## 🧰 Tech Stack
 
-|---|---|---|
 
 
 
