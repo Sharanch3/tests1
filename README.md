@@ -42,7 +42,7 @@ Raw, interim, and processed datasets — along with the trained model and vector
 ## 🧰 Tech Stack
 
 |---|---|---|
-| ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | **Python 3.13** | Core language |
+
 
 
 
