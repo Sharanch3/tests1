@@ -25,9 +25,6 @@
 
 [![License](https://img.shields.io/badge/License-Unlicensed-lightgrey?style=for-the-badge)](#-license)
 [![Repo Size](https://img.shields.io/github/repo-size/Sharanch3/Production-MailGuard-API?style=for-the-badge&color=blue)](https://github.com/Sharanch3/Production-MailGuard-API)
-[![Last Commit](https://img.shields.io/github/last-commit/Sharanch3/Production-MailGuard-API?style=for-the-badge&color=orange)](https://github.com/Sharanch3/Production-MailGuard-API/commits/main)
-
-
 
 </div>
 
