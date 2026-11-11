@@ -24,7 +24,6 @@
 [![Ruff](https://img.shields.io/badge/Linter-Ruff-D7FF64?style=for-the-badge&logo=ruff&logoColor=black)](https://docs.astral.sh/ruff/)
 
 [![License](https://img.shields.io/badge/License-Unlicensed-lightgrey?style=for-the-badge)](#-license)
-[![Repo Size](https://img.shields.io/github/repo-size/Sharanch3/Production-MailGuard-API?style=for-the-badge&color=blue)](https://github.com/Sharanch3/Production-MailGuard-API)
 
 </div>
 
