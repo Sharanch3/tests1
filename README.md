@@ -19,8 +19,6 @@
 [![AWS EC2](https://img.shields.io/badge/AWS_EC2-Deployed-232F3E?style=for-the-badge&logo=amazonec2&logoColor=white)](https://aws.amazon.com/ec2/)
 [![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 [![uv](https://img.shields.io/badge/uv-package_manager-DE5FE9?style=for-the-badge&logo=uv&logoColor=white)](https://docs.astral.sh/uv/)
-[![Pandas](https://img.shields.io/badge/Pandas-2.3-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
-dev/)
 
 </div>
 
