@@ -16,7 +16,6 @@
 [![DagsHub](https://img.shields.io/badge/DagsHub-Model_Registry-FF6600?style=for-the-badge)](https://dagshub.com/)
 [![AWS S3](https://img.shields.io/badge/AWS_S3-DVC_Remote_%26_Config-232F3E?style=for-the-badge&logo=amazons3&logoColor=white)](https://aws.amazon.com/s3/)
 [![AWS ECR](https://img.shields.io/badge/AWS_ECR-Image_Registry-232F3E?style=for-the-badge&logo=amazonecs&logoColor=white)](https://aws.amazon.com/ecr/)
-[![AWS EC2](https://img.shields.io/badge/AWS_EC2-Deployed-232F3E?style=for-the-badge&logo=amazonec2&logoColor=white)](https://aws.amazon.com/ec2/)
 
 </div>
 
