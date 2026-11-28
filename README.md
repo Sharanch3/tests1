@@ -7,8 +7,6 @@
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-54.83.143.31%3A8000-success?style=for-the-badge&logo=amazonaws&logoColor=white)](http://54.83.143.31:8000/docs)
 
-[![Python](https://img.shields.io/badge/Python-3.13-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-
 </div>
 
 ---
