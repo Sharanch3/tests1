@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📧 Production MailGuard 
+# 📧 Production MailGuard API
 
 ### A production-grade, MLOps-driven Spam Email Classification service
 <br/>
